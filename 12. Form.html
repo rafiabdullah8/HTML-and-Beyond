@@ -6,21 +6,70 @@
     <body>
         <h2>We are going to make a form today!</h2> <hr>
         <h2><span style="background-color: chartreuse;">Basic Login</span></h2>
-        <form action="index.php" method="post">
+       
+       
+       <!--Creating the Form-->
+        <form action="index.php" method="post" enctype="multipart/form-data">
+           
+           <!--Add name field-->
             <label for="Username">Username</label>
             <input type="text" id="Username" name="Username" placeholder="rockbd8" minlength="6" maxlength="10" required>
            <br><br>
+           <!--password field-->
             <label for="Password">Password:</label>
             <input type="password" id="Password" placeholder="Enter Password" minlength="6" maxlength="10" required>
           <br><br>
+          <!--Email field-->
            <label for="Email">Email: </label>
             <input type="email" id="Email" placeholder="someone@gmail.com" >
           <br> <br>
+
+          <!--Creating Calender Field-->
            <label for="Birthday">Birthday</label>
             <input type="date" id="Birthday">
+            <br><br>
+                <label for="quantity">quantity</label>
+                <input type="number";id="quantity" min="1" max="100">
          <br><br>
-          <input type="reset">  
-                <input type="submit">
+       
+            <!--Option-->
+         <label for="Gender">Gender: </label>
+         <label>Male</label>
+         <input type="radio" id="Male" value="Male" name="Gender">
+         <label>Female</label>
+         <input type="radio" id="Female" value="Female" name="Gender">
+         <label>Married</label>
+         <input type="radio" id="Married" value="Married" name="Gender">
+         <br><br>
+       
+            <!--Dropdown-->
+         <label for="Payment">Payment</label>
+         <select id="Payment">
+            <option value="Bkash">Bkash</option>
+            <option value="Nagad">Nagad</option>
+            <option value="Visa">Visa</option>
+         </select>
+         <br><br>
+      
+            <!--Tickbox-->
+         <Label for="Agree"><b>I agree that the infos are true</b></Label>
+         <input type="checkbox">
+         <br><br>
+        
+            <!--Text field-->
+         <label for="Comment">Comment</label>
+         <textarea id="Comment" rows="2" cols="20"></textarea>
+         <br><br>
+        
+            <!--File upload-->
+         <label for="File">Add File: </label>
+         <input type="file" id="File" accept="image/png, image/jpg">
+         <br><br>
+     
+            <!--Button-->
+          <input type="reset" style="background-color: tomato;">  
+                <input type="submit" style="background-color: greenyellow;">
+
         </form>
     </body>
 </html>
