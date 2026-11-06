@@ -1,24 +1,25 @@
 # HTML and Beyond
 
 <div align="center">
-  <span>A small step into the world of web development.</span>
+  <i>One day. One topic. One more thing learned.</i>
 </div>
 
 ---
 
-## About
+## What's this about?
 
-This repository documents my journey of learning HTML, one concept per day.
+I made this repository to keep track of my HTML learning journey. Instead of keeping all my practice in one file, I decided to work on one topic at a time and save each lesson in a separate, numbered HTML file.
 
-From building my first HTML page to experimenting with links, multimedia, text formatting, tables, and forms, each file represents a small step in understanding how web pages are structured.
+I'm following **[Bro Code's HTML tutorials]** as my learning resource, practising the concepts along the way and adding my own code as I go.
 
+## How to follow along?
 
-## Repository Structure
+The files are arranged in learning order, so if you're also starting with HTML, you can follow them one by one. Open a file, explore the code, try it yourself, and make a few changes. That's how I'm learning, too.
 
-The files are numbered in learning order, making it easier to follow each topic from the beginning.
-
-## Purpose
-
-Learn the fundamentals, practise through code, and build a foundation for exploring CSS, JavaScript, and beyond.
+This isn't a complete HTML guide—just a growing collection of practice, experiments, and things I've learned.
 
 ---
+
+<div align="center">
+  <i>Still learning, still adding. More beyond HTML.</i>
+</div>
